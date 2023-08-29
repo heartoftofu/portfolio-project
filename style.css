@@ -6,7 +6,7 @@
 
 body {
   padding-top: 100px;
-  max-width: 95%
+  max-width: 95%;
   margin: auto;
 }
 
@@ -97,7 +97,30 @@ h3 {
   text-decoration: none;
 }
 
-.contact{
+.contact {
   margin-top: 40px;
   margin-bottom: 60px;
+}
+
+@media (max-width: 450px) {
+  img {
+    display: none;
+  }
+  h1 {
+    font-size: 50px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  p {
+    text-align: center;
+  }
+  .launch-app-links {
+    display: block;
+    text-align: center;
+  }
 }
